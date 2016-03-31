@@ -14,18 +14,18 @@ class Profile {
     this.organizations = organizations;
     this.repos = repos;
 
-    this.render();
+    this.getData();
   }
 
   getData() {
     fetch(`https://api.github.com/users/shonhartman`)
       .then((response) => {
-      return response.json();
-  })
+        return response.json();
+      })
   .then((response) => {
     console.log(response);
-    this.avatar = response.avatar;
-    this.username = response.username;
+    this.avatar = response.avatar_url;
+    this.username = response.login;
     this.joined = response.joined;
     this.followers = response.followers;
     this.starred = response.starred;
@@ -34,24 +34,20 @@ class Profile {
     this.repos = response.repos;
 
     this.render();
+
   });
   }
 
   render() {
 
-    let 
-    let h1 = document.querySelector = document.createElement("h1");
-    h1.innerHTML = this.username;
+    let username = document.querySelector("#username");
+    username.textContent = this.username;
+
+    let avatar = document.querySelector
 
 
-    let img = document.querySelector = document.createElement("img");
-    img.innerHTML = this.avatar;
-
-  // let item =  document.querySelector("#textField").value;
-  // let li = document.createElement("li");
-  // li.innerHTML = item;
-  // let ul = document.querySelector("#TodoList");
-  // ul.appendChild(li);
 }
 
 }
+
+let profile = new Profile();
