@@ -1,27 +1,23 @@
 .header {
   width: 500px auto;
   background-color: red;
-
 }
 
 .logo {
   width: 500px;
-  
   background-color: blue;
-
+  float: left;
 }
 
 .submit {
   width: 500px;
   height: 500px;
   background-color: yellow;
-
+  float: left;
 }
 
 .pull-requests {
-
- width: 500px;
-  height: 500px;
+  width: 500px auto;
   background-color: green;
-
+  float: left;
 }

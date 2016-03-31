@@ -4,17 +4,19 @@
 
 .logo {
   width: 500px;
-  background-color: blue; }
+  background-color: blue;
+  float: left; }
 
 .submit {
   width: 500px;
   height: 500px;
-  background-color: yellow; }
+  background-color: yellow;
+  float: left; }
 
 .pull-requests {
-  width: 500px;
-  height: 500px;
-  background-color: green; }
+  width: 500px auto;
+  background-color: green;
+  float: left; }
 
 .header {
   width: 500px auto;
@@ -22,14 +24,16 @@
 
 .logo {
   width: 500px;
-  background-color: blue; }
+  background-color: blue;
+  float: left; }
 
 .submit {
   width: 500px;
   height: 500px;
-  background-color: yellow; }
+  background-color: yellow;
+  float: left; }
 
 .pull-requests {
-  width: 500px;
-  height: 500px;
-  background-color: green; }
+  width: 500px auto;
+  background-color: green;
+  float: left; }
