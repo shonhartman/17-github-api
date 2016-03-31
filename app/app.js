@@ -26,7 +26,7 @@ class Profile {
     console.log(response);
     this.avatar = response.avatar_url;
     this.username = response.login;
-    this.joined = response.joined;
+    this.joined = response.created_at;
     this.followers = response.followers;
     this.starred = response.starred;
     this.following = response.following;
@@ -40,10 +40,21 @@ class Profile {
 
   render() {
 
+    let avatar = document.querySelector("#avatar");
+    document.createElement("img");
+    avatar.innerHTML = this.avatar;
+
     let username = document.querySelector("#username");
     username.textContent = this.username;
 
-    let avatar = document.querySelector
+    let joined = document.querySelector("#joined");
+    joined.innerHTML = this.joined;
+
+    
+
+
+
+
 
 
 }

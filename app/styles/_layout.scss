@@ -1,15 +1,16 @@
 .header {
   margin: 0 auto;
-  background-color: red;
+  background-color: lightgrey;
+  border-bottom: 1px solid grey;
 }
 
 .logo {
-  background-color: blue;
+  // background-color: blue;
+  width: 30px;
   float: left;
 }
 
 .submit {
-  background-color: grey;
   float: left;
 }
 
@@ -24,4 +25,12 @@
 
 #username {
   background-color: orange;
+}
+
+.clock {
+  float: left;
+}
+
+#joined {
+  float: left;
 }
