@@ -27,7 +27,7 @@ class Profile {
     this.avatar = response.avatar_url;
     this.username = response.login;
     this.joined = response.created_at;
-    this.followers = response.followers_url;
+    this.followers = response.followers;
     this.starred = response.starred;
     this.following = response.following;
     this.organizations = response.organizations;
@@ -50,8 +50,8 @@ class Profile {
     let joined = document.querySelector("#joined");
     joined.innerHTML = this.joined;
 
-    let followers = document.querySelector("#joined");
-    joined.innerHTML = this.joined;
+    let followers = document.querySelector("#followers");
+    followers.innerHTML = this.followers;
 
 
 
