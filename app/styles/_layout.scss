@@ -1,22 +1,33 @@
 .header {
   margin: 0 auto;
-  background-color: lightgrey;
-  border-bottom: 1px solid grey;
+  height: 30px;
+  background-color: #F5F5F5;
+  border-bottom: 1px solid lightgrey;
 }
 
 .logo {
-  // background-color: blue;
   width: 30px;
   float: left;
 }
 
 .submit {
   float: left;
+  color: grey;
 }
 
 .pull-requests {
-  background-color: green;
   float: left;
+  margin: 1px 10px;
+}
+
+.issues {
+  float: left;
+  margin: 1px 10px;
+}
+
+.gist {
+  float: left;
+  margin: 1px 10px;
 }
 
 #avatar  {
@@ -29,8 +40,17 @@
 
 .clock {
   float: left;
+  width: 30px;
+  color: grey;
+  background-color: blue;
 }
 
 #joined {
   float: left;
+  color: black;
+  background-color: green;
+}
+
+#followers {
+  background-color: red;
 }
