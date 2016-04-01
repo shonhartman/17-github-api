@@ -1,28 +1,3 @@
-.logo {
-  width: 30px;
-  float: left;
-}
-
-.submit {
-  float: left;
-  color: grey;
-}
-
-.pull-requests {
-  float: left;
-  margin: 1px 10px;
-}
-
-.issues {
-  float: left;
-  margin: 1px 10px;
-}
-
-.gist {
-  float: left;
-  margin: 1px 10px;
-}
-
 #avatar  {
   background-color: yellow;
 }
@@ -31,11 +6,25 @@
   background-color: orange;
 }
 
+.profile {
+  border-bottom: 1px solid lightgrey;
+
+}
+.icon-box {
+  border-bottom: 1px solid lightgrey;
+
+}
+
 .clock {
   float: left;
   width: 30px;
   color: grey;
-  background-color: $blue;
+  background-color: #4078C0;
+}
+
+.follow-box {
+
+  border-bottom: 1px solid lightgrey;
 }
 
 #joined {
@@ -48,5 +37,8 @@
 #followers {
   background-color: red;
   width: 30px;
-  color: $blue;
+  color: #4078C0;
+  font-size: 2.75rem;
+  font-weight: bold;
+  float: left;
 }

@@ -53,6 +53,9 @@ class Profile {
     let followers = document.querySelector("#followers");
     followers.innerHTML = this.followers;
 
+    let following = document.querySelector("#following");
+    following.innerHTML = this.following;
+
 
 
 
