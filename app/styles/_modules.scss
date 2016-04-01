@@ -3,6 +3,18 @@
   height: 510px;
 }
 
+.right-column {
+  width: 730px;
+  height: 183px;
+  background-color: black;
+  float: right;
+
+}
+
+span {
+  margin: 10px;
+}
+
 #avatar  {
   width: 230px;
   height: 230px;
@@ -11,14 +23,20 @@
 
 #username {
   background-color: orange;
+  width: 200px;
 }
 
 .profile {
   border-bottom: 1px solid lightgrey;
+  clear: both;
 
 }
 .icon-box {
   border-bottom: 1px solid lightgrey;
+  width: 200px;
+  height: 193px;
+  // margin-right: 0px;
+
 
 }
 
@@ -44,20 +62,20 @@
 
 #followers {
   background-color: red;
-  width: 30px;
-  height: 60px;
+  width: 113px;
+  height: 30px;
   color: #4078C0;
-  font-size: 2.75rem;
+  font-size: 28px;
   font-weight: bold;
   float: left;
   margin: 0;
 }
 
 #following {
-  width: 30px;
-  height: 60px;
+  width: 113px;
+  height: 30px;
   color: #4078C0;
-  font-size: 2.75rem;
+  font-size: 28px;
   font-weight: bold;
   float: left;
   margin: 0;
