@@ -1,4 +1,11 @@
+.left-column {
+  width: 250px;
+  height: 510px;
+}
+
 #avatar  {
+  width: 230px;
+  height: 230px;
   background-color: yellow;
 }
 
@@ -23,7 +30,8 @@
 }
 
 .follow-box {
-
+  width: 230px;
+  height: 67px;
   border-bottom: 1px solid lightgrey;
 }
 
@@ -37,8 +45,20 @@
 #followers {
   background-color: red;
   width: 30px;
+  height: 60px;
   color: #4078C0;
   font-size: 2.75rem;
   font-weight: bold;
   float: left;
+  margin: 0;
+}
+
+#following {
+  width: 30px;
+  height: 60px;
+  color: #4078C0;
+  font-size: 2.75rem;
+  font-weight: bold;
+  float: left;
+  margin: 0;
 }
