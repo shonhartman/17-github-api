@@ -56,13 +56,6 @@ class Profile {
     let following = document.querySelector("#following");
     following.innerHTML = this.following;
 
-
-
-
-
-
-
-
 }
 
 }
