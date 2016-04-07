@@ -12,9 +12,10 @@
 }
 
 .boxed-group--inner {
-      border: 1px solid #d8d8d8;
+  border: 1px solid #d8d8d8;
   list-style: none;
   text-align: left;
+  padding-left: 0;
 }
 
 .boxed-group--inner li {
@@ -25,9 +26,5 @@
 }
 
 .boxed-group--inner i {
-  padding: 10px;
-}
-
-.fa-book {
-  padding-right: 50px;
+  padding-right: 20px;
 }

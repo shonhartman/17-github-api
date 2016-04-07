@@ -25,7 +25,8 @@
 .boxed-group--inner {
   border: 1px solid #d8d8d8;
   list-style: none;
-  text-align: left; }
+  text-align: left;
+  padding-left: 0; }
 
 .boxed-group--inner li {
   font-size: 13px;
@@ -34,10 +35,7 @@
   padding: 6px 64px 6px 30px; }
 
 .boxed-group--inner i {
-  padding: 10px; }
-
-.fa-book {
-  padding-right: 50px; }
+  padding-right: 20px; }
 
 .column--one-fourth--vcard {
   width: 250px;
@@ -121,7 +119,8 @@ span {
 .boxed-group--inner {
   border: 1px solid #d8d8d8;
   list-style: none;
-  text-align: left; }
+  text-align: left;
+  padding-left: 0; }
 
 .boxed-group--inner li {
   font-size: 13px;
@@ -130,10 +129,7 @@ span {
   padding: 6px 64px 6px 30px; }
 
 .boxed-group--inner i {
-  padding: 10px; }
-
-.fa-book {
-  padding-right: 50px; }
+  padding-right: 20px; }
 
 .column--one-fourth--vcard {
   width: 250px;
@@ -224,7 +220,8 @@ span {
 .boxed-group--inner {
   border: 1px solid #d8d8d8;
   list-style: none;
-  text-align: left; }
+  text-align: left;
+  padding-left: 0; }
 
 .boxed-group--inner li {
   font-size: 13px;
@@ -233,7 +230,4 @@ span {
   padding: 6px 64px 6px 30px; }
 
 .boxed-group--inner i {
-  padding: 10px; }
-
-.fa-book {
-  padding-right: 50px; }
+  padding-right: 20px; }

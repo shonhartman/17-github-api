@@ -31,7 +31,7 @@ class Profile {
     this.starred = response.starred;
     this.following = response.following;
     this.organizations = response.organizations;
-    this.repos = response.repos;
+    this.repos = response.repos_url;
 
     this.render();
 
@@ -55,6 +55,9 @@ class Profile {
 
     let following = document.querySelector("#following");
     following.innerHTML = this.following;
+
+    let following = document.querySelector("#repos");
+    following.innerHTML = this.repos_url;
 
 }
 
