@@ -56,7 +56,7 @@ class Profile {
     let following = document.querySelector("#following");
     following.innerHTML = this.following;
 
-    let following = document.querySelector("#repos");
+    let repos = document.querySelector("#repos");
     following.innerHTML = this.repos_url;
 
 }
