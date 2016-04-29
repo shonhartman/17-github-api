@@ -31,9 +31,17 @@ class Profile {
     this.starred = response.starred;
     this.following = response.following;
     this.organizations = response.organizations;
-    this.repos = response.repos_url;
+    this.repo_url = response.repos_url;
 
-    this.render();
+    fetch(this.repo_url)
+      .then((response) => {
+        return response.json();
+      })
+      .then((response) => {
+        this.repos = response;
+        this.render();
+      })
+
 
   });
   }
@@ -41,8 +49,7 @@ class Profile {
   render() {
 
     let avatar = document.querySelector("#avatar");
-    document.createElement("img");
-    avatar.innerHTML = this.avatar;
+    avatar.src = this.avatar;
 
     let username = document.querySelector("#username");
     username.textContent = this.username;
@@ -56,8 +63,22 @@ class Profile {
     let following = document.querySelector("#following");
     following.innerHTML = this.following;
 
-    let repos = document.querySelector("#repos");
-    repos.innerHTML = this.repos_url;
+    this.repos.forEach((repo) => {
+      let li = document.createElement("li");
+
+      let i = document.createElement("i");
+      i.classList.add("fa");
+      i.classList.add("fa-book");
+      li.appendChild(i);
+
+      let text = document.createTextNode(repo.name);
+      li.appendChild(text);
+
+      document.querySelector("#repos").appendChild(li);
+    });
+
+    // let repos = document.querySelector("#repos");
+    // repos.innerHTML = this.repos_url;
 
 }
 
